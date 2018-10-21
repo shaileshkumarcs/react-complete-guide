@@ -90,6 +90,8 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
       loader: require.resolve(preProcessor),
       options: {
         sourceMap: shouldUseSourceMap,
+        modules:true,
+        localIdentName: '[name]__[local]__[hash:base64:5]'
       },
     });
   }
