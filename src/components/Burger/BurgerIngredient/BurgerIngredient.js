@@ -32,6 +32,9 @@
             case ('bacon'):
                     ingredient  = <div className={classes.Bacon}></div>;
                     break;
+            case ('vegloaded'):
+                    ingredient  = <div className={classes.Vegloaded}></div>;
+                    break;
             default:
                     ingredient = null;
         }
